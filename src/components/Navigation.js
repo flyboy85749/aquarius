@@ -7,8 +7,7 @@ import Blog from "./Blog";
 function Navigation() {
   return (
     <>
-    Do I need a router here?
-      <ul>
+      <ul className="nav">
         <li>
           <NavLink to="/" element={Home} />
           
